@@ -20,10 +20,8 @@ public class lesson02_01 {
             sc.next();
         }
         y = sc.nextInt();
-
-
-        System.out.println("Summ is " +" " +Sum.sumF(x, y));
-        System.out.println("Product of numbers is " +" " +Pon.mul(x, y));
+        System.out.println("Summ is " + " " + Sum.sumF(x, y));
+        System.out.println("Product of numbers is " + " " + Pon.mul(x, y));
 
     }
 }

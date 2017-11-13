@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
 
         double a;
         double b;
@@ -17,21 +16,21 @@ public class Main {
 
         System.out.println("ВВеди пжл а");
         while (!conin.hasNextDouble()) {
-        conin.next();
+            conin.next();
         }
 
         a = conin.nextDouble();
 
         System.out.println("ВВеди пжл b");
         while (!conin.hasNextDouble()) {
-        conin.next();
+            conin.next();
         }
 
         b = conin.nextDouble();
 
         System.out.println("ВВеди пжл c");
         while (!conin.hasNextDouble()) {
-        conin.next();
+            conin.next();
         }
 
         c = conin.nextDouble();
@@ -41,6 +40,6 @@ public class Main {
         System.out.println("А всё это равно" + d);
         // TODO Auto-generated method stub
 
-        }
+    }
 
-        }
+}
